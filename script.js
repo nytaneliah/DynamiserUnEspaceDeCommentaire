@@ -29,4 +29,7 @@ document.querySelector('form button[type="submit"]').addEventListener('click', f
          </div>
        </div>
      `;
+
+     // Append the new comment to the comment list
+    commentList.appendChild(newComment);
 });
