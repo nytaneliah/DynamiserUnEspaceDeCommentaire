@@ -32,4 +32,7 @@ document.querySelector('form button[type="submit"]').addEventListener('click', f
 
      // Append the new comment to the comment list
     commentList.appendChild(newComment);
+
+    // Reset the form fields
+    document.querySelector('form').reset();
 });
